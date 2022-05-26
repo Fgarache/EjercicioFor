@@ -14,3 +14,18 @@ while (n2 != 10){
     n2 = n2+1
     print("numero = ",n2)
 }
+
+print("\n \n Imprima el siguiente patrón con el ciclo for \n* \n** \n*** \n**** \n***** \n**** \n*** \n** \n* \n")
+
+var signo = "*"
+
+for i in 1...9{
+    var n = 0
+   if (n != 6){
+    print(signo, terminator: "")  
+   }else{
+       
+   }
+    n = n+1
+    
+}
