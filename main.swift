@@ -15,16 +15,16 @@ while (n2 != 10){
     print("numero = ",n2)
 }
 
-print("\n \n Imprima el siguiente patrón con el ciclo for \n* \n** \n*** \n**** \n***** \n**** \n*** \n** \n* \n")
+print("\n \n Imprima el siguiente patrón con el ciclo for \n* \n** \n*** \n**** \n***** \n******")
 print("=============================")
 
 var signo = "*"
-var valor = 0
 
 
-
-  while (valor<=5){
-        print(signo, terminator: "")
-    valor = valor+1
-    }
-print(" ")
+for j in 1...13{
+    for i in 1...j{
+           print(signo, terminator: "")
+     }
+    print("")
+}
+ print("=============================")
