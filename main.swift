@@ -16,16 +16,15 @@ while (n2 != 10){
 }
 
 print("\n \n Imprima el siguiente patrón con el ciclo for \n* \n** \n*** \n**** \n***** \n**** \n*** \n** \n* \n")
+print("=============================")
 
 var signo = "*"
+var valor = 0
 
-for i in 1...9{
-    var n = 0
-   if (n != 6){
-    print(signo, terminator: "")  
-   }else{
-       
-   }
-    n = n+1
-    
-}
+
+
+  while (valor<=5){
+        print(signo, terminator: "")
+    valor = valor+1
+    }
+print(" ")
